@@ -9,4 +9,4 @@ spec:
   ports:
   - port: 80
     # targetPort: 80 (se não explicitar a target, ele iraconsiderar que é a mesma de "port")
-
+  nodePort: 30000
