@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: svc-portal-noticias-loadbalancer
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
   - port: 80
     nodePort: 30000
