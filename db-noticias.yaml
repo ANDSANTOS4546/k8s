@@ -20,6 +20,6 @@ spec:
 
     #Declarando as variaveis de uma unica vez apontando diretamente para o configmap
     envFrom:
-      configMapRef:
+    - configMapRef:
         name: db-configmap
 
