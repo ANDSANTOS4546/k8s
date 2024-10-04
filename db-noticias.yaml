@@ -10,3 +10,16 @@ spec:
     image: aluracursos/mysql-db:1
     ports:
     - containerPort: 3306
+    # Declarando variavel uma a uma:
+    # env:
+    # - name: MYSQL_ROOT_PASSWORD
+    #   valueFrom:
+    #     configMapKeyRef:
+    #       name: db-configmap
+    #       key: MYSQL_ROOT_PASSWORD
+
+    #Declarando as variaveis de uma unica vez apontando diretamente para o configmap
+    envFrom:
+      configMapRef:
+        name: db-configmap
+
