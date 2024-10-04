@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: portal-configmap
 data:
-  IP_SISTEMA: svc-sistema-noticias
+  IP_SISTEMA: http://localhost:30000
