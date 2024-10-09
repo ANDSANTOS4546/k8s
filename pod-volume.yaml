@@ -17,5 +17,5 @@ spec:
   volumes:
   - name: primeiro-volume
     hostPath:
-      path: /C/User/Andre/k8s/exemplos
+      path: /C/Users/Andre/k8s/exemplos
       type: Directory
